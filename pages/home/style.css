@@ -112,7 +112,37 @@
 	font-family: "Roboto-Regular";
 	font-size: 14px;
 }
-
+.services__title {
+	margin-top: 51px;
+	font-weight: bold;
+	font-family: "Roboto-Bold";
+	color: #0A143A;
+	font-size: 18px;
+	margin-bottom: 23px;
+}
 .services {
 	max-width: 261px;
 }
+.services__container {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.delivery__icon, .history__icon, .booking__icon {
+	margin-bottom: 7px;
+}
+.delivery__title, .history__title, .booking__title {
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-family: "Roboto-Bold";
+	color: #0A143A;
+	font-size: 14px;
+}
+
+.delivery__description, .history__description, .booking__description {
+	font-family: "Roboto-Regular";
+	color: #0A143A;
+	font-size: 14px;
+}
+
