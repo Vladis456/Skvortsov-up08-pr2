@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url(../../assets/fonts/Roboto-Bold.ttf);
+}
+.container {
+	max-width: 1146px;
+	margin: auto;
+	padding-top: 30px;
+}
+.header {
+	margin-bottom: 24px;
+}
+.logo__link {
+	text-decoration: none;
+	color: #0A143A;
+}
+.nav__link {
+	text-decoration: none;
+	font-family: "Roboto-Regular";
+	font-size: 14px;
+	color: #0A143A;
+}
+.nav__link:hover {
+	text-decoration: underline;
+}
+.header .container{
+	display: flex;
+	align-items: center;
+}
+.header__buttons-group {
+	display: flex;
+	gap: 25px;
+	margin-left: auto;
+}
+.log-in-button, .button-apply {
+	padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+	cursor: pointer;
+}
+.nav__link {
+	
+}
+.button-apply {
+	background-color: #256EEB;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.log-in-button__link, .button-apply__link {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Roboto-Regular";
+}
+.log-in-button__link {
+	color: #0A143A;
+}
+.button-apply__link {
+	color: #fff;
+	
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.header__logo {
+	margin-right: 14px;
+}
+.nav {
+	display: flex;
+	gap: 14px;
+}
+.logo__text {
+	font-family: "Roboto-bold";
+	font-size: 24px;
+}
