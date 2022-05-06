@@ -9,10 +9,11 @@
 .container {
 	max-width: 1146px;
 	margin: auto;
-	padding-top: 30px;
+	margin-top: 24px;
 }
 .header {
-	margin-bottom: 24px;
+	padding-top: 5px;
+
 }
 .logo__link {
 	text-decoration: none;
@@ -33,7 +34,7 @@
 }
 .header__buttons-group {
 	display: flex;
-	gap: 25px;
+	gap: 26px;
 	margin-left: auto;
 }
 .log-in-button, .button-apply {
@@ -70,7 +71,7 @@
 	gap: 6px;
 }
 .header__logo {
-	margin-right: 14px;
+	margin-right: 21px;
 }
 .nav {
 	display: flex;
@@ -80,3 +81,9 @@
 	font-family: "Roboto-bold";
 	font-size: 24px;
 }
+
+@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 992px) {
+
+	}
