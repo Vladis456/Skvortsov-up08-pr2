@@ -54,21 +54,23 @@
 
 .main__items-container {
 	display: flex;
-	justify-content: space-between;
+	gap: 30px;
 }
 .card__name {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 12px;
-	padding-bottom: 5px;
+	padding-top: 14px;
+	padding-bottom: 9px;
 }
 .card__price {
 	padding-bottom: 10px;
 	font-weight: bold;
 	font-family: "Roboto-Bold";
 }
-
+.card:nth-child(3) .card__link {
+	line-height: 18.75px;
+}
 .card__price::after {
 	content: ' \20BD';
 }
@@ -111,6 +113,7 @@
 	color: #C4C4C4;
 	font-family: "Roboto-Regular";
 	font-size: 14px;
+	padding-top: 4px;
 }
 .services__title {
 	margin-top: 51px;
@@ -130,7 +133,7 @@
 }
 
 .delivery__icon, .history__icon, .booking__icon {
-	margin-bottom: 7px;
+	margin-bottom: 9px;
 }
 .delivery__title, .history__title, .booking__title {
 	margin-bottom: 5px;
@@ -144,20 +147,22 @@
 	font-family: "Roboto-Regular";
 	color: #0A143A;
 	font-size: 14px;
+	line-height: 16.41px;
+	margin-bottom: 1px;
 }
 
 .footer-line {
 	background-color: #E5E5E5;
 	max-width: 261px;
 	height: 2px;
-	margin-top: 37px;
+	margin-top: 33px;
 }
 
 .footer__links {
 	margin-top: 18px;
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 7px;
 }
 .footer__link {
 	color: #C4C4C4;
@@ -172,7 +177,7 @@
 	margin-top: 16px;
 	display: flex;
 	flex-direction: column;
-	gap: 5px;
+	gap: 7px;
 }
 
 .footer__ad-link {
