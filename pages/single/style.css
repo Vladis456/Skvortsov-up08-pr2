@@ -1,9 +1,10 @@
-.header {
-	position: sticky;
-	
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url(../../assets/fonts/Roboto-Regular.ttf);
 }
-.main {
-	height: 5000px;
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url(../../assets/fonts/Roboto-Bold.ttf);
 }
 .form {
 	display: flex;
@@ -50,7 +51,110 @@
 .main .container {
 	display: block;
 }
+.product {
+	display: flex;
+	gap: 128px;
+	margin-top: 44px;
+}
+.product__name {
+	display: flex;
+	gap: 192px;
+	align-items: center;
+	
+}
+.product__title {
+	font-family: "Roboto-Bold";
+	color: #0A143A;
+	font-size: 24px;
+	font-weight: bold;
+}
+.product__price {
+	font-size: 24px;
+	font-family: "Roboto-Bold";
+	font-weight: bold;
+	color: #0A143A;
+}
+.product__photo-main {
+	display: flex;
+	gap: 30px;
+	margin-top: 25px;
+}
+.product__photos {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+	gap: 5px;
+}
+.product__description {
+	margin-top: 30px;
 
-.form {
-	padding-bottom: 5000px;
+	
+	font-family: "Roboto-Regular";
+	font-size: 14px;
+	color: #0A143A;
+	line-height: 19.6px;
+}
+.reviews__stars {
+	display: flex;
+	gap: 3px;
+	align-items: center;
+}
+.reviews__text {
+	font-family: "Roboto-Regular";
+	font-size: 14px;
+	color: #858A9D;
+}
+.reviews {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.user {
+	display: flex;
+	align-items: center;
+	gap: 74px;
+	margin-bottom: 30px;
+}
+.user__name {
+	text-decoration: none;
+	font-family: "Roboto-Bold";
+	font-weight: bold;
+	font-size: 14px;
+	color: #0A143A;
+}
+.user__type {
+	font-size: 12px;
+	font-family: "Roboto-Regular";
+	color: #0A143A;
+}
+.user__text {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.phone-btn {
+	background-color: #256EEB;
+	margin-bottom: 14px;
+	border-radius: 5px;
+}
+.message-btn {
+	background-color: #14B4BE;
+	border-radius: 5px;
+}
+.phone-btn__text {
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 19px 0px;
+	text-decoration: none;
+	color: #fff;
+	font-family: "Roboto-Regular";
+	font-size: 14px;
+	
+}
+.ads {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	margin-bottom: 26px;
 }
