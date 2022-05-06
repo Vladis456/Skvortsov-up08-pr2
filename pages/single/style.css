@@ -54,7 +54,7 @@
 .product {
 	display: flex;
 	gap: 128px;
-	margin-top: 44px;
+	margin-top: 40px;
 }
 .product__name {
 	display: flex;
