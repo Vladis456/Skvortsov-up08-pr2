@@ -24,11 +24,13 @@
 .form__input::placeholder {
 	padding-left: 21,45px;
 	font-size: 14px;
+	font-family: "Roboto-Regular";
 }
 .form__link {
 	text-decoration: none;
 	color: #fff;
 	font-family: "Roboto-Regular";
+	
 }
 .button-container {
 	align-self: center;
@@ -36,17 +38,20 @@
 	align-items: center;
 	gap: 5px;
 	background-color: #256EEB;
-	padding-top: 16px;
-	padding-bottom: 15px;
-	padding-left: 20px;
+	padding-top: 17px;
+	padding-bottom: 16px;
 	padding-right: 20px;
+	padding-left: 19px;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
+}
+.form__img {
+	
 }
 .form__button{
 	background-color: #256EEB;
 	border: none;
-	padding-left: 5px;
+	padding: 0px;
 }
 .main .container {
 	display: block;
@@ -100,6 +105,10 @@
 
 .card:nth-child(3) .card__name .card__link {
 	max-width: 195px;
+}
+
+.card:nth-child(3) .card__name {
+	align-items: flex-start;
 }
 
 .card__link {
